@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmervsZombies", "FarmervsZombies\FarmervsZombies.csproj", "{2D0B0B64-DAD1-4C1B-899F-FA19B579D953}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D0B0B64-DAD1-4C1B-899F-FA19B579D953}.Debug|x86.ActiveCfg = Debug|x86
+		{2D0B0B64-DAD1-4C1B-899F-FA19B579D953}.Debug|x86.Build.0 = Debug|x86
+		{2D0B0B64-DAD1-4C1B-899F-FA19B579D953}.Release|x86.ActiveCfg = Release|x86
+		{2D0B0B64-DAD1-4C1B-899F-FA19B579D953}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56295230-7554-4F70-AAC1-E08DDD497E27}
+	EndGlobalSection
+EndGlobal

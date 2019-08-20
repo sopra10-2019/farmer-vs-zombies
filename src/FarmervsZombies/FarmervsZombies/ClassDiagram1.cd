@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FarmervsZombies.Achievements">
+    <Position X="22.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAkYAAAAAAAA8AEACAAAAAQgAAAABBAAAAAAEAAAA=</HashCode>
+      <FileName>Achievements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Camera">
+    <Position X="58.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAAAAAAAAAAAgEQQAAAUACAACAAAAIAJAIgCAAgI=</HashCode>
+      <FileName>Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.ExtensionMethods">
+    <Position X="83.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.FogOfWar">
+    <Position X="77.5" Y="8.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FarmervsZombies.FogOfWar.FogStates" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FogOfWar.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAABgAgCAAAAAAAgAAAAAQEAAAAAAAAAAQ=</HashCode>
+      <FileName>FogOfWar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Game1">
+    <Position X="65.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQI1BgAABoAC0AATIRRCAMYkGAASACQYREEAAIAEBY=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.InputState">
+    <Position X="81.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAARBAAABAABAEAIAAAAAAQAAAAAACAAAAUAAAA=</HashCode>
+      <FileName>InputState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.KeyEvent">
+    <Position X="79.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>KeyEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.MouseEvent">
+    <Position X="85" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>MouseEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Notification">
+    <Position X="36.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABBAEABgABAAAAAEAAAACAAAAAAgIAABAAAAA=</HashCode>
+      <FileName>Notification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Program">
+    <Position X="63.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.QuadTree">
+    <Position X="60.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABgIAgQAIACAAECBAMBICgGCBQALAAEAAIACCjFAAE=</HashCode>
+      <FileName>QuadTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Statistics">
+    <Position X="17" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgICAAACJgAAQQMAUgAQAAAAABAEAAAGAAEABIAA=</HashCode>
+      <FileName>Statistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.TileMap">
+    <Position X="55" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBQEgQAIBAAAAgBEAAAgJGAAAAUAgAAkAAAAAAAAAiQ=</HashCode>
+      <FileName>TileMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Tooltip">
+    <Position X="75.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAEACAACAAAAIAAIAAAAAAAA=</HashCode>
+      <FileName>Tooltip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.UnitSelectionBox">
+    <Position X="79.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAgAAAAAAAEBAAAAAAAAAQAAAQAAAYAA=</HashCode>
+      <FileName>UnitSelectionBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.AI.Ai">
+    <Position X="62" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAACwQCFYEAAABAgAAFAAAiAAEAaBAAACAEIAA=</HashCode>
+      <FileName>AI\AI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.AttackChicken">
+    <Position X="38" Y="30.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAQAACAABAgIIAQUQEAAAAIAAAAQA=</HashCode>
+      <FileName>GameObjects\AttackChicken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.AttackCow">
+    <Position X="40.75" Y="30.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMAAAAAAAAAAAAAAAAgAAAAAAAQEAIAAQAACAgA=</HashCode>
+      <FileName>GameObjects\AttackCow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.AttackPig">
+    <Position X="43.5" Y="30.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMAAABAAgAAAgIAAAAAAAACAAEQEAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\AttackPig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.BAnimal">
+    <Position X="39.25" Y="18" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAMAEgAIAAIBAICAAAABAAAGEAwAEAQggAAAAAA=</HashCode>
+      <FileName>GameObjects\BAnimal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.BAttackAnimal">
+    <Position X="40.5" Y="24.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgQAAQCAAAAEAAAAAAAAACBAAIAAAEAUBIABkBAAAAI=</HashCode>
+      <FileName>GameObjects\BAttackAnimal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.BGameObject">
+    <Position X="30" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAZACAKABYAASgBgABAQAEEIAIAIAAAkAAABYgAAAAI=</HashCode>
+      <FileName>GameObjects\BGameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.BMovableGameObject">
+    <Position X="35.25" Y="8.75" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="FarmervsZombies.GameObjects.BMovableGameObject.Directions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObjects\BMovableGameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AARECAEIIIAKAgQAAAQIGABFAAAEcAAAAhgEACDEAEA=</HashCode>
+      <FileName>GameObjects\BMovableGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Boulder">
+    <Position X="55" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Boulder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Chicken">
+    <Position X="46.25" Y="24.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAgAAAAAAIAAAQEAAAAgAAAAAA=</HashCode>
+      <FileName>GameObjects\Chicken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Cow">
+    <Position X="32.5" Y="24.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAgAAAAAAIAAAQEAAAAgAAAAAA=</HashCode>
+      <FileName>GameObjects\Cow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Farmer">
+    <Position X="25" Y="18" Width="2" />
+    <TypeIdentifier>
+      <HashCode>DIQAAUKAAAAEAAAAAMAAACIAAIIAEAg0FAAFEBAAUAI=</HashCode>
+      <FileName>GameObjects\Farmer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Farmhouse">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Farmhouse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Fence">
+    <Position X="10.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAFEIMAAAAAgAA=</HashCode>
+      <FileName>GameObjects\Fence.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Graveyard">
+    <Position X="13.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkEAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Graveyard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Graveyardasset">
+    <Position X="15.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Graveyardasset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.GraveyardCross">
+    <Position X="20" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\GraveyardCross.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.GraveyardTreasure">
+    <Position X="49" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAQAAAAACAgAAAQAAAAACQAAEABAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\GraveyardTreasure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Necromancer">
+    <Position X="27.75" Y="27.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAABCAAQAAJAAAGIAAAAAACEkAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Necromancer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Pig">
+    <Position X="35.25" Y="24.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAIAAAQEAAAAgAAAAAA=</HashCode>
+      <FileName>GameObjects\Pig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.PreviewFence">
+    <Position X="17.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>GameObjects\PreviewFence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Projectile">
+    <Position X="22.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAgAAAAAAAAABABAAAAAEAgAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Tower">
+    <Position X="51.5" Y="8.75" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="FarmervsZombies.GameObjects.Tower.FireMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObjects\Tower.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAYcIAAEAIAAAgADEAAgAAAAAACAAEIFEIBQABAAMQI=</HashCode>
+      <FileName>GameObjects\Tower.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Trap">
+    <Position X="57.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAQAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Trap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.TreasureZombie">
+    <Position X="30.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>GameObjects\TreasureZombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Tree">
+    <Position X="3.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMgAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Tree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.491" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Wheat">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FarmervsZombies.GameObjects.Wheat.WheatType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObjects\Wheat.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAgAAAAEAAAAAgAAAAAAEEQAAAAQAAAA=</HashCode>
+      <FileName>GameObjects\Wheat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.GameObjects.Zombie">
+    <Position X="28.5" Y="18" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AoQAAUKAAAQEAAQAAIAAACJAAAIAEGg0FIABEDAGAQE=</HashCode>
+      <FileName>GameObjects\Zombie.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FarmervsZombies.Managers.Animation">
+    <Position X="32.75" Y="55.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQCAAMCAAAABQAAAAAABAAAiAAAAAAggAAAAQDAAAA=</HashCode>
+      <FileName>Managers\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.AnimationManager">
+    <Position X="32.75" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUYRNAoSxAUEkA0IWliws8CCtEIVAJCBSAEBGgAkgIk=</HashCode>
+      <FileName>Managers\AnimationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.EconomyManager">
+    <Position X="20.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBBACAACAgABASQQECACAABAEACAAABAQAIAAADAAAA=</HashCode>
+      <FileName>Managers\EconomyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.FarmerQueueManager">
+    <Position X="69.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lIaEUAABAAAAAAQAgAQIAABAQBAiAAIJaghAAACAAAA=</HashCode>
+      <FileName>Managers\FarmerQueueManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.GameStateManager">
+    <Position X="25.75" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAEAAAIAAAAAABAAAAABACAAAABBAAAAA=</HashCode>
+      <FileName>Managers\GameStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.InputManager">
+    <Position X="34.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABRAHDEAABQCCQAEQBgAAAAACAABAECAAQAICBBCEBA=</HashCode>
+      <FileName>Managers\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.NotificationManager">
+    <Position X="36.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAAAwAAAAgAAEAAEAAAAAAAgAAAAAABAAA=</HashCode>
+      <FileName>Managers\NotificationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.ObjectManager">
+    <Position X="29.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AB6AUJAAAmAACgUIAACAJABAEABACAAERQAGAIExABM=</HashCode>
+      <FileName>Managers\ObjectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.SelectionManager">
+    <Position X="31" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQABAAgAAAAAwAAAACAAEAAAAAAAQIAAAAAAAAAIAA=</HashCode>
+      <FileName>Managers\SelectionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.SoundManager">
+    <Position X="24" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQiEmAEACACAAQAAEAgAAgAAYAAAAAAgAAAAAUACAQ=</HashCode>
+      <FileName>Managers\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.SteeringManager">
+    <Position X="27.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAIAAIAgAAiCAAACQQQAICAACCQBAAAMAAAAA=</HashCode>
+      <FileName>Managers\SteeringManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Managers.TextureManager">
+    <Position X="18.75" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAgAAEQQAAAAAAAAAAABAAAAAgAAAAAAAAAY=</HashCode>
+      <FileName>Managers\TextureManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.MenuButtons.ActionMenuButton">
+    <Position X="51" Y="32.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FarmervsZombies.MenuButtons.ActionMenuButton.BtnStates" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MenuButtons\ActionMenuButton.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAYACAAQBAAQAgAAAACCgEAgAAAAAgAgEAIAIAAAAAA=</HashCode>
+      <FileName>MenuButtons\ActionMenuButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.MenuButtons.HudElement">
+    <Position X="81" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAiAAAAAAAIACAAAAAAAAAAAAACAQ=</HashCode>
+      <FileName>MenuButtons\HudElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.MenuButtons.LiveBar">
+    <Position X="74" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAEAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>MenuButtons\LiveBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.MenuButtons.MenuButton">
+    <Position X="0.5" Y="12.5" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="FarmervsZombies.MenuButtons.MenuButton.BtnStates" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MenuButtons\MenuButton.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQQQAAAAAAAAAgABAAAAAAAAAIAAAAAACBEAAIBAAAQ=</HashCode>
+      <FileName>MenuButtons\MenuButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.MenuButtons.Switch">
+    <Position X="0.75" Y="17.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAACAACIAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>MenuButtons\Switch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.MenuButtons.Textbox">
+    <Position X="72.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAgAAiAAAAAAAIACAAAAAAEAAAAAAAAQ=</HashCode>
+      <FileName>MenuButtons\Textbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.MenuButtons.VolumeSlider">
+    <Position X="70.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HxwAAAAAAAAAAgABAAAAAAAACAAAAAAACAAAAAAAAOA=</HashCode>
+      <FileName>MenuButtons\VolumeSlider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.AchievementsMenu">
+    <Position X="6.5" Y="29" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAYAwAIAACAAEEAAACAAAAAQIEIAAEAACY=</HashCode>
+      <FileName>Menus\AchievementsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.ActionMenu">
+    <Position X="17.25" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAABkAAAgACAAAEAEAAAAAAAAAoAEAAAABASAA=</HashCode>
+      <FileName>Menus\ActionMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.HudMenu">
+    <Position X="15.25" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABgBgQICgAICAgABAAAACAAREAAAAEAQ=</HashCode>
+      <FileName>Menus\HudMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.LevelMenu">
+    <Position X="17.5" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAEIAAAAGAAAAAAgAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Menus\LevelMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.LoadGameMenu">
+    <Position X="19.75" Y="29" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAAwQAEAAAAEAAAAAAAAAAAAAAAABAAAQ=</HashCode>
+      <FileName>Menus\LoadGameMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.MainMenu">
+    <Position X="22.75" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAEBAAAAEAAAEAAAAAAAAAEAAAAACw=</HashCode>
+      <FileName>Menus\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.Menu">
+    <Position X="12" Y="26.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FarmervsZombies.Menus.Menu.GameState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Menus\Menu.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menus\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.ObjectMenu">
+    <Position X="18.25" Y="17" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABwAUAACkIgACgMAggQAEAAAAAIicAIBCgAAIgCASAA=</HashCode>
+      <FileName>Menus\ObjectMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.OptionsMenu">
+    <Position X="1.5" Y="29" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAoAAAwAAAAgIAEAAAAAAAAAAAAAAAABAAAQ=</HashCode>
+      <FileName>Menus\OptionsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.PauseMenu">
+    <Position X="4.25" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAA4AAAwBABAAIAkAAAAAAAAAAAgAAAABAAAw=</HashCode>
+      <FileName>Menus\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.StartGameMenu">
+    <Position X="9.5" Y="29" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAAAAAAUAIAAAAAAAAAAAAACAAAAQ=</HashCode>
+      <FileName>Menus\StartGameMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.StatisticsMenu">
+    <Position X="12.5" Y="29" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBAACAAAAAAwAAACAAAEAEAACEBAQCAAAAAAEAEAQ=</HashCode>
+      <FileName>Menus\StatisticsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Menus.TileMenu">
+    <Position X="15.5" Y="17" Width="2" />
+    <TypeIdentifier>
+      <HashCode>hBCAQAABgAAAAgaAAAAIAAAAAAigAAAACAgAAAAACAA=</HashCode>
+      <FileName>Menus\TileMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Pathfinding.AStar" BaseTypeListCollapsed="true">
+    <Position X="67.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Pathfinding\AStar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FarmervsZombies.Pathfinding.UnitPath">
+    <Position X="74.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAEEAAACAAIAAAIAACJAAAAQAQAAIAAABgAAAAA=</HashCode>
+      <FileName>Pathfinding\Path.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Pathfinding.Pathfinder">
+    <Position X="73" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAIIAAAAAA=</HashCode>
+      <FileName>Pathfinding\Pathfinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Pathfinding.GameGraph.Edge">
+    <Position X="63.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinding\GameGraph\Edge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Pathfinding.GameGraph.GameGraph">
+    <Position X="71" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAACAgAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinding\GameGraph\GameGraph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Pathfinding.GameGraph.Graph">
+    <Position X="65.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAACAAAAQAEBAAAAACCAgAAQAAAAAII=</HashCode>
+      <FileName>Pathfinding\GameGraph\Graph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.Pathfinding.GameGraph.Vertex">
+    <Position X="58.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAAAAAAAgCAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinding\GameGraph\Vertex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FarmervsZombies.SaveAndLoad.SaveLoad">
+    <Position X="56.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SaveAndLoad\SaveLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FarmervsZombies.GameObjects.IAttackable">
+    <Position X="62.75" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\IAttackable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FarmervsZombies.GameObjects.IBuildable">
+    <Position X="64.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\IBuildable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FarmervsZombies.GameObjects.ICollidable">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\ICollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FarmervsZombies.GameObjects.IPathCollidable">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\IPathCollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FarmervsZombies.GameObjects.ISelectable">
+    <Position X="64.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\ISelectable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FarmervsZombies.Pathfinding.IPathfinder">
+    <Position X="62.75" Y="34.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinding\IPathfinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FarmervsZombies.ActionType">
+    <Position X="52.75" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAEAAAwAAABAAIDAIAIYECACAAAAIAAEAgIAAAI=</HashCode>
+      <FileName>ActionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FarmervsZombies.KeyEventType">
+    <Position X="54.5" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyEvent.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FarmervsZombies.MouseEventType">
+    <Position X="58" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MouseEvent.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FarmervsZombies.MouseButton">
+    <Position X="56.25" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MouseEvent.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FarmervsZombies.Tile">
+    <Position X="59.75" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAgAAAAAAAAAAAABgA=</HashCode>
+      <FileName>Tile.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

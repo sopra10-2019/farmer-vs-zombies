@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D0B0B64-DAD1-4C1B-899F-FA19B579D953}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FarmervsZombies</RootNamespace>
+    <AssemblyName>FarmervsZombies</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Achievements.cs" />
+    <Compile Include="ActionType.cs" />
+    <Compile Include="AI\AI.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="GameObjects\BAttackAnimal.cs" />
+    <Compile Include="GameObjects\Graveyardasset.cs" />
+    <Compile Include="GameObjects\GraveyardCross.cs" />
+    <Compile Include="GameObjects\GraveyardTreasure.cs" />
+    <Compile Include="GameObjects\ITauntable.cs" />
+    <Compile Include="GameObjects\MoonwalkZombie.cs" />
+    <Compile Include="GameObjects\Trap.cs" />
+    <Compile Include="GameObjects\TreasureZombie.cs" />
+    <Compile Include="Managers\EconomyManager.cs" />
+    <Compile Include="FogOfWar.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="GameObjects\BAnimal.cs" />
+    <Compile Include="GameObjects\BMovableGameObject.cs" />
+    <Compile Include="GameObjects\Farmhouse.cs" />
+    <Compile Include="GameObjects\Graveyard.cs" />
+    <Compile Include="GameObjects\IAttackable.cs" />
+    <Compile Include="GameObjects\IPathCollidable.cs" />
+    <Compile Include="GameObjects\Necromancer.cs" />
+    <Compile Include="GameObjects\PreviewFence.cs" />
+    <Compile Include="GameObjects\Projectile.cs" />
+    <Compile Include="GameObjects\Wheat.cs" />
+    <Compile Include="GameObjects\Zombie.cs" />
+    <Compile Include="Managers\FarmerQueueManager.cs" />
+    <Compile Include="Managers\GameStateManager.cs" />
+    <Compile Include="Managers\InputManager.cs" />
+    <Compile Include="InputState.cs" />
+    <Compile Include="KeyEvent.cs" />
+    <Compile Include="Managers\NotificationManager.cs" />
+    <Compile Include="Menus\ResolutionMenu.cs" />
+    <Compile Include="Notification.cs" />
+    <Compile Include="Tooltip.cs" />
+    <Compile Include="MenuButtons\MenuButton.cs" />
+    <Compile Include="MenuButtons\HudElement.cs" />
+    <Compile Include="MenuButtons\LiveBar.cs" />
+    <Compile Include="MenuButtons\Textbox.cs" />
+    <Compile Include="MenuButtons\ActionMenuButton.cs" />
+    <Compile Include="Menus\AchievementsMenu.cs" />
+    <Compile Include="Menus\ActionMenu.cs" />
+    <Compile Include="Menus\HudMenu.cs" />
+    <Compile Include="Menus\LevelMenu.cs" />
+    <Compile Include="Menus\LoadGameMenu.cs" />
+    <Compile Include="Menus\MainMenu.cs" />
+    <Compile Include="Menus\Menu.cs" />
+    <Compile Include="Menus\ObjectMenu.cs" />
+    <Compile Include="Menus\OptionsMenu.cs" />
+    <Compile Include="Menus\PauseMenu.cs" />
+    <Compile Include="Menus\StartGameMenu.cs" />
+    <Compile Include="Menus\StatisticsMenu.cs" />
+    <Compile Include="MenuButtons\Switch.cs" />
+    <Compile Include="Menus\TileMenu.cs" />
+    <Compile Include="MouseEvent.cs" />
+    <Compile Include="Pathfinding\AStar.cs" />
+    <Compile Include="Pathfinding\GameGraph\Edge.cs" />
+    <Compile Include="Pathfinding\GameGraph\GameGraph.cs" />
+    <Compile Include="Pathfinding\GameGraph\Graph.cs" />
+    <Compile Include="Pathfinding\GameGraph\Vertex.cs" />
+    <Compile Include="Pathfinding\IPathfinder.cs" />
+    <Compile Include="Pathfinding\Path.cs" />
+    <Compile Include="Pathfinding\Pathfinder.cs" />
+    <Compile Include="QuadTree.cs" />
+    <Compile Include="SaveAndLoad\SaveLoad.cs" />
+    <Compile Include="Managers\SelectionManager.cs" />
+    <Compile Include="Managers\SteeringManager.cs" />
+    <Compile Include="Managers\Animation.cs" />
+    <Compile Include="Managers\AnimationManager.cs" />
+    <Compile Include="Managers\TextureManager.cs" />
+    <Compile Include="Statistics.cs" />
+    <Compile Include="Tile.cs" />
+    <Compile Include="GameObjects\Farmer.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="GameObjects\BGameObject.cs" />
+    <Compile Include="GameObjects\Boulder.cs" />
+    <Compile Include="GameObjects\Chicken.cs" />
+    <Compile Include="GameObjects\Cow.cs" />
+    <Compile Include="GameObjects\AttackChicken.cs" />
+    <Compile Include="GameObjects\AttackCow.cs" />
+    <Compile Include="GameObjects\Fence.cs" />
+    <Compile Include="GameObjects\IBuildable.cs" />
+    <Compile Include="GameObjects\ICollidable.cs" />
+    <Compile Include="GameObjects\ISelectable.cs" />
+    <Compile Include="Managers\ObjectManager.cs" />
+    <Compile Include="GameObjects\Pig.cs" />
+    <Compile Include="GameObjects\AttackPig.cs" />
+    <Compile Include="GameObjects\Tower.cs" />
+    <Compile Include="GameObjects\Tree.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Managers\SoundManager.cs" />
+    <Compile Include="TileMap.cs" />
+    <Compile Include="MenuButtons\VolumeSlider.cs" />
+    <Compile Include="UnitSelectionBox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Priority Queue, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OptimizedPriorityQueue.4.0.0\lib\net45\Priority Queue.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <Content Include="NEWMAP.spiel">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
