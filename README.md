@@ -1,5 +1,5 @@
 ﻿
-# Farmer vs Zombies
+# :man_farmer: Farmer vs Zombies
 
 This project was created at the [University of Freiburg](http://www.uni-freiburg.de/) during a lecture of the [Chair of Software Engineering](http://swt.informatik.uni-freiburg.de/). The game is about a farmer surviving in a zombie apocalypse.
 
