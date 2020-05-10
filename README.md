@@ -25,7 +25,7 @@ This project was created at the [University of Freiburg](http://www.uni-freiburg
 | F5 | Window mode On/Off |
 | X | Stop selected units |
 
-### Key assignments for chear mode (can be activated in the options menu):
+### Key assignments for cheat mode (can be activated in the options menu):
 
 | Key               | Action        |
 | -------------     | ------------- |
